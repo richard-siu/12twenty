@@ -9,7 +9,7 @@ To view notebook with annotations/sample data on Github, open [app.ipynb](./app.
 To run locally, install VSCode and the Python/Jupyter extensions.  Pull the github repository.  Create a file called api_key.txt next to app.ipynb and paste the 12Twenty API key.  Adjust the SQL Server connection string as needed.  
 
 ## Benefits/Context
-This code took less than 1 work day to write and is under 100 lines of code.  The equivalent in Boomi took months of frustration.  All included libraries are open source/free.  Although those unfamiliar with python would need time/training to get up to speed, maintaining this process is MUCH simpler than the alternative....
+This code is under 100 lines and took a fraction of the time (and frustration) the equivalent did in Boomi.  All included libraries are open source/free.  Although those unfamiliar with python would need time/training to get up to speed, maintaining this process is MUCH simpler than the alternative....
 
 <img src="./12twentyboomi.png" width="1000">
 <br>
