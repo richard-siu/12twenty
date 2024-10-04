@@ -132,8 +132,8 @@ merged_students.loc[merged_students['ActionNeeded'] == 'Update'].head()
 #display final counts and data table
 print(f"Students to Insert: {merged_students.loc[merged_students['ActionNeeded'] == 'Insert']['StudentId'].count()}") 
 print(f"Students to Update: {merged_students.loc[merged_students['ActionNeeded'] == 'Update']['StudentId'].count()}") 
-with pd.option_context('display.max_rows', 25, 'display.max_columns', None): 
-    display(merged_students.loc[merged_students['ActionNeeded'] != 'None'].sort_values(by=['ActionNeeded', 'LastName_ODS', 'FirstName_ODS'], ascending=[False, True, True]))
+# with pd.option_context('display.max_rows', 25, 'display.max_columns', None): 
+#     display(merged_students.loc[merged_students['ActionNeeded'] != 'None'].sort_values(by=['ActionNeeded', 'LastName_ODS', 'FirstName_ODS'], ascending=[False, True, True]))
 
 # %% [markdown]
 # ## Pushing Data to 12Twenty
